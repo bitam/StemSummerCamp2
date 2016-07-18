@@ -1,5 +1,25 @@
-<html><head>
+<html>
+<head>
 	<title>Sample HTML page</title>
+    <style>
+        body {
+            color: blue;
+            background-color: lightgray;
+        }
+        
+        p {
+            margin-bottom: 20px;
+            text-align:center;
+        }
+        
+        #location {
+            text-align:left;
+        }
+        
+        .myclass {
+            color:red;
+        }
+    </style>
 </head>
 <body>
 	<h1>This is my first GitHub page!</h1>
@@ -11,9 +31,10 @@
 		<li>Learned HTML</li>
 	</ul>
 
-	<p>Location:<br>
+	<p id="location">Location:<br>
 		<a href="http://www.foothill.edu/index.php"><img src="http://www.foothill.edu/images/fhlogo.jpg" alt="Foothill Logo"></a>
 	</p>
 
+    <p class="myclass">Very red!</p>
 
 </body></html>
