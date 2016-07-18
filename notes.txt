@@ -1,0 +1,5 @@
+- How to create a HTML skeleton:
+<html>
+</html>
+
+- How to...
